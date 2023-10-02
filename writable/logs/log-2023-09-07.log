@@ -1,0 +1,369 @@
+ERROR - 2023-09-07 12:07:50 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'password', 'gsbv2', 3306, '', 0)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 12:07:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fichefrais`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 12:38:57 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'password', 'gsbv2', 3306, '', 0)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 12:38:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fichefrais`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 12:39:01 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'password', 'gsbv2', 3306, '', 0)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 12:39:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fichefrais`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 12:39:20 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'password', 'gsbv2', 3306, '', 0)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 12:39:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fichefrais`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 12:39:52 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'password', 'gsbv2', 3306, '', 0)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 12:39:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fichefrais`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 12:39:54 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'password', 'gsbv2', 3306, '', 0)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 12:39:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fichefrais`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 12:40:20 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'password', 'gsbv2', 3306, '', 0)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 12:40:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fichefrais`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 12:40:21 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'password', 'gsbv2', 3306, '', 0)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 12:40:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fichefrais`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-07 12:40:27 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'password', 'gsbv2', 3306, '', 0)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\gsb2sio\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\gsb2sio\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\gsb2sio\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\gsb2sio\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\gsb2sio\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\gsb2sio\app\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\wamp64\www\gsb2sio\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\gsb2sio\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-07 12:40:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fichefrais`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

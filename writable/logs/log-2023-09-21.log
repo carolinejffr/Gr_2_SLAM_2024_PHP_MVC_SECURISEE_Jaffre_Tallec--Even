@@ -1,0 +1,307 @@
+CRITICAL - 2023-09-21 13:55:24 --> Undefined constant "App\Controllers\HorsForfait"
+in APPPATH\Controllers\Home.php on line 274.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->horsForfait()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 13:55:45 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 274.
+ 1 APPPATH\Controllers\Home.php(274): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 274)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->horsForfait()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 13:55:59 --> Undefined variable $id
+in APPPATH\Views\HorsForfait\horsforfait.php on line 17.
+ 1 APPPATH\Views\HorsForfait\horsforfait.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\HorsForfait\\horsforfait.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\HorsForfait\\horsforfait.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('HorsForfait/horsforfait', [], true)
+ 5 APPPATH\Controllers\Home.php(274): view('HorsForfait/horsforfait')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->horsForfait()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 11:56:45 --> Undefined variable $_SESSION
+in APPPATH\Controllers\Home.php on line 271.
+ 1 APPPATH\Controllers\Home.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 271)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->horsForfait()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 11:57:02 --> Undefined variable $_SESSION
+in APPPATH\Controllers\Home.php on line 271.
+ 1 APPPATH\Controllers\Home.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 271)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->horsForfait()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 11:57:18 --> Undefined variable $id
+in APPPATH\Views\HorsForfait\horsforfait.php on line 17.
+ 1 APPPATH\Views\HorsForfait\horsforfait.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\HorsForfait\\horsforfait.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\HorsForfait\\horsforfait.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('HorsForfait/horsforfait', [], true)
+ 5 APPPATH\Controllers\Home.php(279): view('HorsForfait/horsforfait')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->horsForfait()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 11:57:43 --> Undefined variable $id
+in APPPATH\Views\HorsForfait\horsforfait.php on line 17.
+ 1 APPPATH\Views\HorsForfait\horsforfait.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\HorsForfait\\horsforfait.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\HorsForfait\\horsforfait.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('HorsForfait/horsforfait', [], true)
+ 5 APPPATH\Controllers\Home.php(279): view('HorsForfait/horsforfait')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->horsForfait()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 14:01:48 --> Undefined variable $montant
+in APPPATH\Controllers\Home.php on line 305.
+ 1 APPPATH\Controllers\Home.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $montant', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 305)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home::nouvelleHorsForfait()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 14:02:04 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\Forfait\nouvelleFicheForfait.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Forfait\\nouvelleFicheForfait.php', 4)
+ 2 APPPATH\Views\Forfait\nouvelleFicheForfait.php(4): session_start()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Forfait\\nouvelleFicheForfait.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Forfait/nouvelleFicheForfait', [], true)
+ 6 APPPATH\Controllers\Home.php(307): view('Forfait/nouvelleFicheForfait')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home::nouvelleHorsForfait()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 14:03:23 --> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'a17-9-ETP' for key 'lignefraisforfait.PRIMARY'
+in APPPATH\Models\HomeModel.php on line 141.
+ 1 APPPATH\Models\HomeModel.php(141): PDOStatement->execute([])
+ 2 APPPATH\Controllers\Home.php(277): App\Models\HomeModel::nouveauFraisForfait('a17', '9', 'ETP', '1', '2023-09-21 14:03:23')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home::nouvelleFicheForfait()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 14:16:43 --> Undefined variable $dateModif
+in APPPATH\Models\HomeModel.php on line 146.
+ 1 APPPATH\Models\HomeModel.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dateModif', 'C:\\wamp64\\www\\gsb2sio\\app\\Models\\HomeModel.php', 146)
+ 2 APPPATH\Controllers\Home.php(277): App\Models\HomeModel::nouveauFraisForfait('a17', '9', 'ETP', '1', '2023-09-21 14:16:43')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home::nouvelleFicheForfait()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 14:17:44 --> Undefined variable $aujourdhui
+in APPPATH\Models\HomeModel.php on line 163.
+ 1 APPPATH\Models\HomeModel.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aujourdhui', 'C:\\wamp64\\www\\gsb2sio\\app\\Models\\HomeModel.php', 163)
+ 2 APPPATH\Controllers\Home.php(305): App\Models\HomeModel::nouveauHorsForfait('a17', '9', 'oui', '2023-09-21 14:17:44', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home::nouvelleHorsForfait()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 14:18:33 --> Undefined variable $aujourdhui
+in APPPATH\Models\HomeModel.php on line 163.
+ 1 APPPATH\Models\HomeModel.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aujourdhui', 'C:\\wamp64\\www\\gsb2sio\\app\\Models\\HomeModel.php', 163)
+ 2 APPPATH\Controllers\Home.php(305): App\Models\HomeModel::nouveauHorsForfait('a17', '9', 'eteertz', '2023-09-21 14:18:33', '0.01')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home::nouvelleHorsForfait()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 14:18:50 --> SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `FK_LigneFraisHorsForfait_idVisiteur_mois` FOREIGN KEY (`idFrais`, `idVisiteur`, `mois`) REFERENCES `fichefrais` (`idFrais`, `idVisiteur`, `mois`))
+in APPPATH\Models\HomeModel.php on line 175.
+ 1 APPPATH\Models\HomeModel.php(175): PDOStatement->execute([])
+ 2 APPPATH\Controllers\Home.php(305): App\Models\HomeModel::nouveauHorsForfait('a17', '9', 'dsfgdsfg', '2023-09-21 14:18:50', '0.01')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home::nouvelleHorsForfait()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 14:15:55 --> SQLSTATE[HY000] [1049] Unknown database 'gsbv2'
+in APPPATH/Models/HomeModel.php on line 26.
+ 1 APPPATH/Models/HomeModel.php(26): PDO->__construct()
+ 2 APPPATH/Controllers/Home.php(21): App\Models\HomeModel::connexionBDD()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->login()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:18:38 --> SQLSTATE[HY000] [1049] Unknown database 'gsbv2'
+in APPPATH/Models/HomeModel.php on line 26.
+ 1 APPPATH/Models/HomeModel.php(26): PDO->__construct()
+ 2 APPPATH/Controllers/Home.php(21): App\Models\HomeModel::connexionBDD()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->login()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:18:49 --> SQLSTATE[HY000] [1049] Unknown database 'gsbv2'
+in APPPATH/Models/HomeModel.php on line 26.
+ 1 APPPATH/Models/HomeModel.php(26): PDO->__construct()
+ 2 APPPATH/Controllers/Home.php(21): App\Models\HomeModel::connexionBDD()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->login()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:19:15 --> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gsbv2.visiteur' doesn't exist
+in APPPATH/Models/HomeModel.php on line 35.
+ 1 APPPATH/Models/HomeModel.php(35): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(29): App\Models\HomeModel::verifLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->login()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:20:01 --> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gsbV2.visiteur' doesn't exist
+in APPPATH/Models/HomeModel.php on line 35.
+ 1 APPPATH/Models/HomeModel.php(35): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(29): App\Models\HomeModel::verifLogin()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->login()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 16:29:16 --> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gsbV2.lignefraisforfait' doesn't exist
+in APPPATH/Models/HomeModel.php on line 153.
+ 1 APPPATH/Models/HomeModel.php(153): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(277): App\Models\HomeModel::nouveauFraisForfait()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::nouvelleFicheForfait()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 16:31:10 --> Undefined array key "mois"
+in APPPATH/Views/Forfait/nouvelleFicheForfait.php on line 26.
+ 1 APPPATH/Views/Forfait/nouvelleFicheForfait.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/gsb2sio/app/Views/Forfait/nouvelleFicheForfait.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(279): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::nouvelleFicheForfait()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 16:31:22 --> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'a17-9-ETP' for key 'PRIMARY'
+in APPPATH/Models/HomeModel.php on line 153.
+ 1 APPPATH/Models/HomeModel.php(153): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(277): App\Models\HomeModel::nouveauFraisForfait()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::nouvelleFicheForfait()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 16:33:25 --> Undefined array key "mois"
+in APPPATH/Views/Forfait/nouvelleFicheForfait.php on line 26.
+ 1 APPPATH/Views/Forfait/nouvelleFicheForfait.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/gsb2sio/app/Views/Forfait/nouvelleFicheForfait.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(279): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::nouvelleFicheForfait()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:33:50 --> SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gsbV2`.`LigneFraisForfait`, CONSTRAINT `FK_LigneFraisForfait_idVisiteur_mois` FOREIGN KEY (`idFrais`, `idVisiteur`, `mois`) REFERENCES `FicheFrais` (`idFrais`, `idVisiteur`, `mois`))
+in APPPATH/Models/HomeModel.php on line 107.
+ 1 APPPATH/Models/HomeModel.php(107): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(148): App\Models\HomeModel::supprimerLigne()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:34:25 --> SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gsbV2`.`LigneFraisForfait`, CONSTRAINT `FK_LigneFraisForfait_idVisiteur_mois` FOREIGN KEY (`idFrais`, `idVisiteur`, `mois`) REFERENCES `FicheFrais` (`idFrais`, `idVisiteur`, `mois`))
+in APPPATH/Models/HomeModel.php on line 107.
+ 1 APPPATH/Models/HomeModel.php(107): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(148): App\Models\HomeModel::supprimerLigne()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:35:30 --> SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gsbV2`.`LigneFraisForfait`, CONSTRAINT `FK_LigneFraisForfait_idVisiteur_mois` FOREIGN KEY (`idFrais`, `idVisiteur`, `mois`) REFERENCES `FicheFrais` (`idFrais`, `idVisiteur`, `mois`))
+in APPPATH/Models/HomeModel.php on line 107.
+ 1 APPPATH/Models/HomeModel.php(107): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(148): App\Models\HomeModel::supprimerLigne()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 16:43:24 --> Undefined array key "mois"
+in APPPATH/Views/Forfait/nouvelleFicheForfait.php on line 26.
+ 1 APPPATH/Views/Forfait/nouvelleFicheForfait.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/gsb2sio/app/Views/Forfait/nouvelleFicheForfait.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(279): view()
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::nouvelleFicheForfait()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 16:43:32 --> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'a17-9-ETP' for key 'PRIMARY'
+in APPPATH/Models/HomeModel.php on line 177.
+ 1 APPPATH/Models/HomeModel.php(177): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(277): App\Models\HomeModel::nouveauFraisForfait()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::nouvelleFicheForfait()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:45:10 --> Undefined variable $login
+in APPPATH/Models/HomeModel.php on line 108.
+ 1 APPPATH/Models/HomeModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(148): App\Models\HomeModel::supprimerLigne()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:46:55 --> Undefined global variable $_SESSION
+in APPPATH/Controllers/Home.php on line 148.
+ 1 APPPATH/Controllers/Home.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:47:16 --> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nom' in 'field list'
+in APPPATH/Models/HomeModel.php on line 108.
+ 1 APPPATH/Models/HomeModel.php(108): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(150): App\Models\HomeModel::supprimerLigne()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:47:46 --> Trying to access array offset on value of type bool
+in APPPATH/Models/HomeModel.php on line 109.
+ 1 APPPATH/Models/HomeModel.php(109): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(150): App\Models\HomeModel::supprimerLigne()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:49:54 --> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.LigneFraisForfait WHERE idFrais = 'dandre'' at line 1
+in APPPATH/Models/HomeModel.php on line 108.
+ 1 APPPATH/Models/HomeModel.php(108): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(150): App\Models\HomeModel::supprimerLigne()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')
+CRITICAL - 2023-09-21 14:50:36 --> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.LigneFraisForfait WHERE idFrais = '6'' at line 1
+in APPPATH/Models/HomeModel.php on line 108.
+ 1 APPPATH/Models/HomeModel.php(108): PDOStatement->execute()
+ 2 APPPATH/Controllers/Home.php(148): App\Models\HomeModel::supprimerLigne()
+ 3 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/gsb2sio/public/index.php')

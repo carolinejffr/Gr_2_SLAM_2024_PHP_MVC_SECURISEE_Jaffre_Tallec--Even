@@ -1,0 +1,7 @@
+CRITICAL - 2023-09-14 17:37:13 --> Undefined array key "login"
+in APPPATH\Controllers\Home.php on line 55.
+ 1 APPPATH\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login"', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->note()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

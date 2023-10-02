@@ -1,0 +1,133 @@
+CRITICAL - 2023-09-06 10:29:28 --> Class "App\Controllers\NoteModel" not found
+in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 11:27:15 --> Undefined array key "idVisiteur"
+in APPPATH\Views\Note\index.php on line 31.
+ 1 APPPATH\Views\Note\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idVisiteur"', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Note\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Note\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Note/index', [], true)
+ 5 APPPATH\Controllers\Note.php(18): view('Note/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Note->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Note))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:09:57 --> App\Controllers\Home::login(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:10:40 --> Call to undefined function App\Controllers\note()
+in APPPATH\Controllers\Home.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:11:00 --> Undefined constant "App\Controllers\Home"
+in APPPATH\Controllers\Home.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:12:18 --> Undefined constant "App\Controllers\this"
+in APPPATH\Controllers\Home.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:12:37 --> Call to undefined function App\Controllers\note()
+in APPPATH\Controllers\Home.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:12:54 --> App\Controllers\Home::login(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:18:18 --> A void function must not return a value
+in APPPATH\Controllers\Home.php on line 54.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-06 14:29:48 --> Undefined variable $_SESSION
+in APPPATH\Views\Note\index.php on line 16.
+ 1 APPPATH\Views\Note\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Note\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Note\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Note/index', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('Note/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->note()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:31:35 --> Undefined variable $_SESSION
+in APPPATH\Views\Note\index.php on line 16.
+ 1 APPPATH\Views\Note\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Note\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Note\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Note/index', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('Note/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->note()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:32:56 --> Undefined variable $_SESSION
+in APPPATH\Views\Note\index.php on line 48.
+ 1 APPPATH\Views\Note\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Note\\index.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Note\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Note/index', [], true)
+ 5 APPPATH\Controllers\Home.php(38): view('Note/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->note()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:45:14 --> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'a17-9' for key 'fichefrais.PRIMARY'
+in APPPATH\Views\Nouveau\index.php on line 79.
+ 1 APPPATH\Views\Nouveau\index.php(79): PDOStatement->execute([])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/index', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('Nouveau/index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:47:33 --> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'a17-9' for key 'fichefrais.PRIMARY'
+in APPPATH\Views\Nouveau\index.php on line 79.
+ 1 APPPATH\Views\Nouveau\index.php(79): PDOStatement->execute([])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/index', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('Nouveau/index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 14:50:08 --> SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'a17-9' for key 'fichefrais.PRIMARY'
+in APPPATH\Views\Nouveau\index.php on line 79.
+ 1 APPPATH\Views\Nouveau\index.php(79): PDOStatement->execute([])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/index', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('Nouveau/index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-06 17:10:07 --> SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '2023-09-06 05:10:07 PM' for column 'dateModif' at row 1
+in APPPATH\Views\Nouveau\index.php on line 81.
+ 1 APPPATH\Views\Nouveau\index.php(81): PDOStatement->execute([])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/index', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('Nouveau/index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

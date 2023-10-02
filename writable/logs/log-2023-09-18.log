@@ -1,0 +1,223 @@
+CRITICAL - 2023-09-18 12:36:16 --> Undefined variable $bdd
+in APPPATH\Views\Nouveau\nouveau.php on line 13.
+ 1 APPPATH\Views\Nouveau\nouveau.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bdd', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 13:55:35 --> Undefined variable $bdd
+in APPPATH\Views\Nouveau\nouveau.php on line 13.
+ 1 APPPATH\Views\Nouveau\nouveau.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bdd', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:05:07 --> Undefined variable $reponse
+in APPPATH\Views\Nouveau\nouveau.php on line 13.
+ 1 APPPATH\Views\Nouveau\nouveau.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reponse', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(80): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:07:13 --> Undefined array key "login"
+in APPPATH\Controllers\Home.php on line 77.
+ 1 APPPATH\Controllers\Home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login"', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:08:32 --> Undefined variable $data
+in APPPATH\Controllers\Home.php on line 87.
+ 1 APPPATH\Controllers\Home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:08:46 --> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+in APPPATH\Views\Nouveau\nouveau.php on line 14.
+ 1 APPPATH\Views\Nouveau\nouveau.php(14): PDOStatement->execute([])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(87): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:10:53 --> syntax error, unexpected identifier "SELECT", expecting ")"
+in APPPATH\Models\HomeModel.php on line 89.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\gsb2sio\\app\\Models\\HomeModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\HomeModel')
+ 3 APPPATH\Controllers\Home.php(68): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\HomeModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:11:08 --> Undefined variable $bdd
+in APPPATH\Views\Nouveau\nouveau.php on line 36.
+ 1 APPPATH\Views\Nouveau\nouveau.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bdd', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(87): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:19:00 --> Undefined variable $_SESSION
+in APPPATH\Controllers\Home.php on line 78.
+ 1 APPPATH\Controllers\Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:20:09 --> Undefined variable $_SESSION
+in APPPATH\Controllers\Home.php on line 78.
+ 1 APPPATH\Controllers\Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:20:34 --> Undefined variable $_SESSION
+in APPPATH\Controllers\Home.php on line 78.
+ 1 APPPATH\Controllers\Home.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $_SESSION', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:21:00 --> Undefined variable $mode
+in APPPATH\Controllers\Home.php on line 83.
+ 1 APPPATH\Controllers\Home.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mode', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:21:15 --> Undefined constant "App\Controllers\login"
+in APPPATH\Controllers\Home.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:21:23 --> Undefined variable $bdd
+in APPPATH\Models\HomeModel.php on line 91.
+ 1 APPPATH\Models\HomeModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bdd', 'C:\\wamp64\\www\\gsb2sio\\app\\Models\\HomeModel.php', 91)
+ 2 APPPATH\Controllers\Home.php(86): App\Models\HomeModel::getRow()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:21:45 --> Undefined variable $bdd
+in APPPATH\Models\HomeModel.php on line 91.
+ 1 APPPATH\Models\HomeModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bdd', 'C:\\wamp64\\www\\gsb2sio\\app\\Models\\HomeModel.php', 91)
+ 2 APPPATH\Controllers\Home.php(86): App\Models\HomeModel::getRow()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:21:57 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\Nouveau\nouveau.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 4)
+ 2 APPPATH\Views\Nouveau\nouveau.php(4): session_start()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 6 APPPATH\Controllers\Home.php(88): view('Nouveau/nouveau', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 16:22:37 --> Undefined variable $bdd
+in APPPATH\Views\Nouveau\nouveau.php on line 65.
+ 1 APPPATH\Views\Nouveau\nouveau.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bdd', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 16:23:20 --> Undefined variable $bdd
+in APPPATH\Views\Nouveau\nouveau.php on line 65.
+ 1 APPPATH\Views\Nouveau\nouveau.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bdd', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:24:49 --> Undefined array key "login"
+in APPPATH\Controllers\Home.php on line 55.
+ 1 APPPATH\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login"', 'C:\\wamp64\\www\\gsb2sio\\app\\Controllers\\Home.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->note()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:40:27 --> Undefined array key "nbJustificatifs"
+in APPPATH\Views\Nouveau\nouveau.php on line 46.
+ 1 APPPATH\Views\Nouveau\nouveau.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbJustificatifs"', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:41:57 --> Undefined array key "nbJustificatifs"
+in APPPATH\Views\Nouveau\nouveau.php on line 46.
+ 1 APPPATH\Views\Nouveau\nouveau.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbJustificatifs"', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:43:12 --> Undefined array key "nbJustificatifs"
+in APPPATH\Views\Nouveau\nouveau.php on line 46.
+ 1 APPPATH\Views\Nouveau\nouveau.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbJustificatifs"', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:46:56 --> Undefined constant "nbJustificatifs"
+in APPPATH\Views\Nouveau\nouveau.php on line 46.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 4 APPPATH\Controllers\Home.php(88): view('Nouveau/nouveau', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-18 14:49:05 --> Undefined array key "nbJustificatifs"
+in APPPATH\Views\Nouveau\nouveau.php on line 46.
+ 1 APPPATH\Views\Nouveau\nouveau.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbJustificatifs"', 'C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\gsb2sio\\app\\Views\\Nouveau\\nouveau.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Nouveau/nouveau', [], true)
+ 5 APPPATH\Controllers\Home.php(88): view('Nouveau/nouveau', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->nouveau()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

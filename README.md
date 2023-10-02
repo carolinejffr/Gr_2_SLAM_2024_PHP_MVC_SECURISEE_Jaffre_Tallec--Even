@@ -1,2 +1,4 @@
-# Gr_2_SLAM_2024_PHP_MVC_SECURISEE_Jaffre_Tallec--Even
+# Projet PHP MVC SÉCURISÉE
+## Caroline Jaffré / Léo Tallec--Éven
 Reprise du projet gsb2sio, travail sur les failles de sécurité
+[Projet original](https://github.com/carolinejffr/gsb2sio)

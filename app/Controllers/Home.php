@@ -27,7 +27,7 @@ class Home extends BaseController
 
         // On test les identifiants de connexion
         $data['login_valide'] = $model::verifLogin($_POST['login']);
-        $data['mdp_valide'] = $model::verifPassword($_POST['mdp'], $_POST['login']);
+        $data['mdp_valide'] = $model::verifPassword(md5($_POST['mdp']), $_POST['login']);
 
         // Vue
         return view('Login/login', $data);

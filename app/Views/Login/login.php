@@ -15,7 +15,11 @@
     		// on redirige notre visiteur vers une page de notre section membre
 			session_start();
 			$_SESSION['login'] = $_POST['login'];
-    		header ('location:selection');
+			// Access Token
+			$token  = bin2hex(random_bytes(32));
+			$_SESSION['token'] = $token;
+			$token;
+    		header ('location:selection?token=' . $token);
 			exit;
     	    }
     	    else {

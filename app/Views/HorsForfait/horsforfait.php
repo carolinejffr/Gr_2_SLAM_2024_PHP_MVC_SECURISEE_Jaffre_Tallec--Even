@@ -15,6 +15,7 @@
 <h2>Nouvelle fiche hors-forfait</h2>
 <form action="nouvelleHorsForfait" method="post">
     <input type="hidden" id="idVisiteur" name="idVisiteur"  value="<?php echo esc($id); ?>"/>
+	<input type='hidden' id='token' name='token' value='<?php echo $_SESSION['token'] ?>'/>
     <label>Mois en cours (non-modifiable)</label>
 	<input type="number" class="form-control" name="mois" value="<?php echo esc($mois); ?>" min="1" max="12" step="1" readonly>
     <label>Libellé</label><br/>

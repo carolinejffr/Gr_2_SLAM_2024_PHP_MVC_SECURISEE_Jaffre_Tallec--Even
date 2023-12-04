@@ -14,15 +14,18 @@
             {
                 $errorMessage = "Veuillez remplir le formulaire.";
             }
-            if ($_GET["error"] == 2)
+            else if ($_GET["error"] == 2)
             {
                 $errorMessage = "Login ou mot de passe incorrect.";
             }
-            if ($_GET["error"] == 3)
+            else if ($_GET["error"] == 3)
             {
                 $errorMessage = "Veuillez vous connecter.";
             }
-            
+            else if ($_GET["error"] == 4)
+            {
+                $errorMessage = "Erreur de Token.";
+            }
         }
     }
     ?>

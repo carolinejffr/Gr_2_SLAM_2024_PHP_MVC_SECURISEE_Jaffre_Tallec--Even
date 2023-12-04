@@ -9,6 +9,27 @@ if ($_SESSION['login'] == NULL)
 	header("location:index.php?error=3");
 	exit;
 }
+if (!isset($_SESSION['token']))
+{
+	if (isset($_GET['token']))
+	{
+		if ($_SESSION['token'] != $_GET['token'])
+		{
+			header("location:index.php?error=4");
+		}
+	}
+	else if (isset($_POST['token']))
+	{
+		if ($_SESSION['token'] != $_POST['token'])
+		{
+			header("location:index.php?error=4");
+		}
+	}
+	else
+	{
+		header("location:index.php?error=4");
+	}
+}
 ?>
 <?= $this->endSection() ?>
 

@@ -1,0 +1,351 @@
+CRITICAL - 2023-11-08 13:13:52 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 39.
+ 1 APPPATH/Controllers/Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 39)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->selectionMois()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:14:53 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 39.
+ 1 APPPATH/Controllers/Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 39)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->selectionMois()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:21:57 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 39.
+ 1 APPPATH/Controllers/Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 39)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->selectionMois()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:37:45 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:38:43 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:38:47 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:41:26 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:41:32 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:41:58 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:42:09 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:42:36 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:47:32 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH/Views/Selection/selection.php on line 19.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Selection/selection', [], true)
+ 3 APPPATH/Controllers/Home.php(45): view('Selection/selection')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->selectionMois()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:47:34 --> syntax error, unexpected string content "", expecting "-" or identifier or variable or number
+in APPPATH/Views/Selection/selection.php on line 19.
+ 1 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Selection/selection', [], true)
+ 3 APPPATH/Controllers/Home.php(45): view('Selection/selection')
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->selectionMois()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:48:01 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:49:07 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:49:28 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:49:45 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:50:37 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:50:55 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 224.
+ 1 APPPATH/Controllers/Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 224)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::forfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:51:14 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 278.
+ 1 APPPATH/Controllers/Home.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 278)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::nouvelleFicheForfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:52:07 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 278.
+ 1 APPPATH/Controllers/Home.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 278)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::nouvelleFicheForfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:53:06 --> Undefined array key "token"
+in APPPATH/Views/Note/note.php on line 6.
+ 1 APPPATH/Views/Note/note.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Views/Note/note.php', 6)
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/gsbsecu/app/Views/Note/note.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Note/note', [], true)
+ 5 APPPATH/Controllers/Home.php(69): view('Note/note', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->note()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:55:27 --> Undefined array key "token"
+in APPPATH/Views/Note/note.php on line 6.
+ 1 APPPATH/Views/Note/note.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Views/Note/note.php', 6)
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/gsbsecu/app/Views/Note/note.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Note/note', [], true)
+ 5 APPPATH/Controllers/Home.php(69): view('Note/note', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->note()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 13:59:16 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 39.
+ 1 APPPATH/Controllers/Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 39)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->selectionMois()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:02:04 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 311.
+ 1 APPPATH/Controllers/Home.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 311)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home::nouvelleHorsForfait()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:02:28 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 105.
+ 1 APPPATH/Controllers/Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->edition()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:02:30 --> Undefined array key "login"
+in APPPATH/Controllers/Home.php on line 61.
+ 1 APPPATH/Controllers/Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 61)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->note()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:03:18 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 105.
+ 1 APPPATH/Controllers/Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->edition()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:03:23 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 105.
+ 1 APPPATH/Controllers/Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->edition()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:04:05 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 105.
+ 1 APPPATH/Controllers/Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->edition()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:04:47 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 105.
+ 1 APPPATH/Controllers/Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->edition()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:05:54 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 105.
+ 1 APPPATH/Controllers/Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->edition()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:07:19 --> Undefined array key "login"
+in APPPATH/Controllers/Home.php on line 61.
+ 1 APPPATH/Controllers/Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 61)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->note()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:07:28 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 105.
+ 1 APPPATH/Controllers/Home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->edition()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:08:18 --> Undefined array key "token"
+in APPPATH/Views/Validation/validation.php on line 5.
+ 1 APPPATH/Views/Validation/validation.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php', 5)
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Validation/validation', [], true)
+ 5 APPPATH/Controllers/Home.php(216): view('Validation/validation')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:10:55 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 174.
+ 1 APPPATH/Controllers/Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 174)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:11:10 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 174.
+ 1 APPPATH/Controllers/Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 174)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:11:13 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 174.
+ 1 APPPATH/Controllers/Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 174)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:11:23 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 152.
+ 1 APPPATH/Controllers/Home.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 152)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:11:52 --> Undefined array key "token"
+in APPPATH/Controllers/Home.php on line 174.
+ 1 APPPATH/Controllers/Home.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Controllers/Home.php', 174)
+ 2 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 3 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:13:07 --> Undefined array key "token"
+in APPPATH/Views/Validation/validation.php on line 5.
+ 1 APPPATH/Views/Validation/validation.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php', 5)
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Validation/validation', [], true)
+ 5 APPPATH/Controllers/Home.php(226): view('Validation/validation')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:13:48 --> Undefined array key "token"
+in APPPATH/Views/Validation/validation.php on line 5.
+ 1 APPPATH/Views/Validation/validation.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php', 5)
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Validation/validation', [], true)
+ 5 APPPATH/Controllers/Home.php(226): view('Validation/validation')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:14:32 --> Undefined array key "token"
+in APPPATH/Views/Validation/validation.php on line 5.
+ 1 APPPATH/Views/Validation/validation.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php', 5)
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Validation/validation', [], true)
+ 5 APPPATH/Controllers/Home.php(232): view('Validation/validation')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:14:43 --> Undefined array key "token"
+in APPPATH/Views/Validation/validation.php on line 5.
+ 1 APPPATH/Views/Validation/validation.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php', 5)
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Validation/validation', [], true)
+ 5 APPPATH/Controllers/Home.php(232): view('Validation/validation')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-08 14:15:25 --> Undefined array key "token"
+in APPPATH/Views/Validation/validation.php on line 5.
+ 1 APPPATH/Views/Validation/validation.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', '/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php', 5)
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/gsbsecu/app/Views/Validation/validation.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('Validation/validation', [], true)
+ 5 APPPATH/Controllers/Home.php(239): view('Validation/validation')
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->validation()
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

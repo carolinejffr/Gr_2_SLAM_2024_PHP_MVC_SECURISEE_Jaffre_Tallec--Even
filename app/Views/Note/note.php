@@ -4,6 +4,28 @@
 <?php session_start(); 
 $_SESSION['mois'] = $_POST['mois'];
 
+if (!isset($_SESSION['token']))
+{
+	if (isset($_GET['token']))
+	{
+		if ($_SESSION['token'] != $_GET['token'])
+		{
+			header("location:index.php?error=4");
+		}
+	}
+	else if (isset($_POST['token']))
+	{
+		if ($_SESSION['token'] != $_POST['token'])
+		{
+			header("location:index.php?error=4");
+		}
+	}
+	else
+	{
+		header("location:index.php?error=4");
+	}
+}
+
 
 // On vérifie que l'utilisateur est connecté.
 if (esc($login) == NULL)
@@ -17,8 +39,8 @@ if (esc($login) == NULL)
 <?= $this->section("titre") ?>GSB 2SIO<?= $this->endSection() ?>
 
 <?= $this->section("h1") ?>
-	<a class='btn btn-success btn-sm' href='selection'>Retour au menu principal</a>
-	<a class='btn btn-danger btn-sm' href='deconnexion'>Se déconnecter</a>
+	<a class='btn btn-success btn-sm' href= <?php echo("\"selection?token=$_SESSION[token]\"")?>>Retour au menu principal</a>
+	<a class='btn btn-danger btn-sm' href= <?php echo("\"deconnexion?token=$_SESSION[token]\"")?>>Se déconnecter</a>
 
 <?= $this->endSection() ?>
 
@@ -72,8 +94,8 @@ if (esc($login) == NULL)
 					if ($donnees['idVisiteur'] == esc($id))
 					{
 						echo "
-						<a class='btn btn-primary btn-sm' href='edition?idFrais=$donnees[idFrais]'>Modifier</a>
-						<a class='btn btn-danger btn-sm' href='validation?idFrais=$donnees[idFrais]'>Supprimer</a>
+						<a class='btn btn-primary btn-sm' href='edition?idFrais=$donnees[idFrais]&token=$_SESSION[token]'>Modifier</a>
+						<a class='btn btn-danger btn-sm' href='validation?idFrais=$donnees[idFrais]&token=$_SESSION[token]'>Supprimer</a>
 						";
 					}
 					echo 

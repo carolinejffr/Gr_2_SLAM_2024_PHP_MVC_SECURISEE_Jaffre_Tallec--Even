@@ -17,6 +17,7 @@
     <input type="hidden" id="modeEdition" name="modeEdition"  value="1"/>
 	<input type="hidden" id="idVisiteur" name="idVisiteur"  value="<?php echo esc($id); ?>"/>
 	<input type="hidden" id="idFrais" name="idFrais"  value="<?php echo esc($idFrais); ?>"/>
+	<input type='hidden' id='token' name='token' value='<?php echo $_SESSION['token'] ?>'/>
 	
 	<label>Mois en cours (non-modifiable)</label>
 	<input type="number" class="form-control" name="mois" value="<?php echo esc($mois); ?>" min="1" max="12" step="1" readonly>
@@ -42,6 +43,7 @@
 <form action="note" method="post">
 	<input type='hidden' id='login' name='login' value='<?php echo $_SESSION['login'] ?>'/>
 	<input type='hidden' id='mois' name='mois' value='<?php echo esc($mois); ?>'/>
+	<input type='hidden' id='token' name='token' value='<?php echo $_SESSION['token'] ?>'/>
 	<button type="submit" class="btn btn-outline-primary">Annuler</button>
 </form>
 <?= $this->endSection() ?>

@@ -36,6 +36,10 @@ class Home extends BaseController
     public function selectionMois(): string
     {
         session_start();
+        if (!isset($_SESSION['token']) || $_SESSION['token'] != $_GET['token'])
+        {
+            header("location:index.php?error=4");
+        }
         $_SESSION['mois'] = date('n');
         // La page sélection n'a pas besoin de la base de données (selection valeur entre 1 et 12)
         return view('Selection/selection');
@@ -69,6 +73,10 @@ class Home extends BaseController
     {
         
         session_start();
+        if (!isset($_SESSION['token']) || $_SESSION['token'] != $_GET['token'])
+        {
+            header("location:index.php?error=4");
+        }
         $model = new HomeModel;
         try
         {
@@ -94,6 +102,10 @@ class Home extends BaseController
     public function edition(): string
     {
         session_start();
+        if (!isset($_SESSION['token']) || $_SESSION['token'] != $_GET['token'])
+        {
+            header("location:index.php?error=4");
+        }
         $model = new HomeModel;
         try
         {
@@ -132,6 +144,8 @@ class Home extends BaseController
 
     public function validation($modeEdition = false): string
     {
+        session_start(); 
+
         // Cas suppression
         if ( $_SERVER['REQUEST_METHOD'] == 'GET' )
         {
@@ -209,6 +223,10 @@ class Home extends BaseController
     public static function forfait()
     {
         session_start();
+        if (!isset($_SESSION['token']) || $_SESSION['token'] != $_GET['token'])
+        {
+            header("location:index.php?error=4");
+        }
         $model = new HomeModel;
         try
         {
@@ -231,6 +249,10 @@ class Home extends BaseController
     public function horsForfait()
     {
         session_start();
+        if (!isset($_SESSION['token']) || $_SESSION['token'] != $_GET['token'])
+        {
+            header("location:index.php?error=4");
+        }
         $model = new HomeModel;
            
         // On se connecte à la BDD
@@ -255,6 +277,10 @@ class Home extends BaseController
     public static function nouvelleFicheForfait()
     {
         session_start();
+        if (!isset($_SESSION['token']) || $_SESSION['token'] != $_POST['token'])
+        {
+            header("location:index.php?error=4");
+        }
         $model = new HomeModel;
            
         // On se connecte à la BDD
@@ -284,6 +310,10 @@ class Home extends BaseController
     public static function nouvelleHorsForfait()
     {
         session_start();
+        if (!isset($_SESSION['token']) || $_SESSION['token'] != $_POST['token'])
+        {
+            header("location:index.php?error=4");
+        }
         $model = new HomeModel;
            
         // On se connecte à la BDD

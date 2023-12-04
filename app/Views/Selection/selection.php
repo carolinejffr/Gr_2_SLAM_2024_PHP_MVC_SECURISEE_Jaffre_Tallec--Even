@@ -16,8 +16,8 @@
     <h2>Bienvenue chez GSB !</h2>
     
     <h3>Créer une nouvelle fiche</h3>
-    <a class="btn btn-primary" href="forfait" role="button">Fiche forfait</a>
-    <a class="btn btn-primary" href="horsforfait" role="button">Fiche hors-forfait</a>
+    <a class="btn btn-primary" href= <?php echo("\"forfait?token=$_SESSION[token]\"")?> role="button">Fiche forfait</a>
+    <a class="btn btn-primary" href= <?php echo("\"horsforfait?token=$_SESSION[token]\"")?> role="button">Fiche hors-forfait</a>
     <br/>
     <h3>Consulter toutes mes fiches frais</h3>
     <p>Choississez le mois à afficher</p>
@@ -27,6 +27,7 @@
             <div class="col-sm-6">
             <input type="hidden" name="login" value="<?php echo $_SESSION['login'] ?>">
             <input type="number" class="form-control" name="mois" value="<?php echo $mois; ?>" min="1" max="12" step="1">
+            <input type='hidden' id='token' name='token' value='<?php echo $_SESSION['token'] ?>'/>
         </div>
         <div class="offset-sm-3 col-sm-3 d-grid">
             <button type="submit" class="btn btn-primary">Valider</button>

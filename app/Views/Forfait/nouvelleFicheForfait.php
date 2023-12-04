@@ -24,6 +24,7 @@ if ($_SESSION['login'] == NULL)
 <form action="note" method="post">
 <input type='hidden' id='login' name='login' value='<?php echo $_SESSION['login'] ?>'/>
 <input type='hidden' id='mois' name='mois' value='<?php echo $_SESSION['mois'] ?>'/>
+<input type='hidden' id='token' name='token' value='<?php echo $_SESSION['token'] ?>'/>
 <input type='submit' class='btn btn-success btn-sm'value='OK'/>
 </form>
 <?= $this->endSection() ?>

@@ -30,6 +30,9 @@ if (!isset($_SESSION['token']))
 // On vérifie que l'utilisateur est connecté.
 if (esc($login) == NULL)
 {
+	$ip = $_SERVER['REMOTE_ADDR'];
+	$str = "L'IP : " . $ip . " n'est plus connectée.";
+	log_message('info', $str);
 	header("location:index.php?error=3");
 	exit;
 }

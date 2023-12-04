@@ -24,6 +24,9 @@
             }
             else if ($_GET["error"] == 4)
             {
+                $ip = $_SERVER['REMOTE_ADDR'];
+                $str = "L'IP : " . $ip . " a tenté d'utiliser un token invalide.";
+			    log_message('info', $str);
                 $errorMessage = "Erreur de Token.";
             }
         }

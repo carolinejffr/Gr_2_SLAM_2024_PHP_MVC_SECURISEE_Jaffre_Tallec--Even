@@ -8,6 +8,9 @@ class Home extends BaseController
 {
     public function index(): string
     {
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $str = "L'IP : " . $ip . " vient d'accéder au site.";
+		log_message('info', $str);
         return view('Home/index');
     }
 
@@ -145,7 +148,6 @@ class Home extends BaseController
     public function validation($modeEdition = false): string
     {
         session_start(); 
-
         // Cas suppression
         if ( $_SERVER['REQUEST_METHOD'] == 'GET' )
         {
@@ -162,6 +164,8 @@ class Home extends BaseController
             }
 
             $model::supprimerLigne($bdd, $id);
+            $str = "L'utilisateur : " . $_SESSION['login'] . " a supprimé l'entrée " . $id;
+			log_message('info', $str);
 
             return view('Validation/validation');
         }
@@ -191,6 +195,8 @@ class Home extends BaseController
                 $idEtat = $_POST['idEtat'];
                 $model::ajouterLigne($idVisiteur, $mois, $nbJustificatifs, $montantValide, $aujourdhui, $idEtat);
 
+                $str = "L'utilisateur : " . $_SESSION['login'] . " a ajouté une nouvelle entrée.";
+			    log_message('info', $str);
                 return view('Validation/validation');
             }
             else
@@ -214,6 +220,9 @@ class Home extends BaseController
                 $idEtat = $_POST['idEtat'];
                 $idFrais = $_POST['idFrais'];
                 $model::modifierLigne($mois, $nbJustificatifs, $montantValide, $aujourdhui, $idEtat, $idFrais);
+
+                $str = "L'utilisateur : " . $_SESSION['login'] . " a modifié l'entrée " . $idFrais;
+			    log_message('info', $str);
 
                 return view('Validation/validation');
             }
@@ -304,6 +313,9 @@ class Home extends BaseController
 
         $model::nouveauFraisForfait($idVisiteur, $mois, $idFraisForfait, $quantite, $aujourdhui);
 
+        $str = "L'utilisateur : " . $_SESSION['login'] . " a ajouté une nouvelle fiche forfait.";
+		log_message('info', $str);
+
         return view('Forfait/nouvelleFicheForfait');
     }
 
@@ -335,6 +347,9 @@ class Home extends BaseController
 	    $aujourdhui = date('Y-m-d H:i:s');
 
         $model::nouveauHorsForfait($idVisiteur, $mois, $libelle, $aujourdhui, $montant);
+
+        $str = "L'utilisateur : " . $_SESSION['login'] . " a ajouté une nouvelle fiche hors forfait.";
+		log_message('info', $str);
 
         return view('Forfait/nouvelleFicheForfait');
     }

@@ -1,0 +1,27 @@
+INFO - 2023-12-04 08:49:34 --> L'IP : ::1 vient d'accéder au site.
+INFO - 2023-12-04 08:49:47 --> L'IP : ::1 a tenté de se connecter sans remplir les champs.
+INFO - 2023-12-04 08:49:47 --> L'IP : ::1 vient d'accéder au site.
+INFO - 2023-12-04 08:49:50 --> L'IP : ::1 a tenté de se connecter avec de mauvaises informations.
+INFO - 2023-12-04 08:49:50 --> L'IP : ::1 vient d'accéder au site.
+INFO - 2023-12-04 08:49:53 --> L'utilisateur : dandre s'est connecté avec l'IP : ::1
+INFO - 2023-12-04 09:49:56 --> L'utilisateur : dandre a ajouté une nouvelle fiche forfait.
+INFO - 2023-12-04 09:50:02 --> L'utilisateur : dandre a ajouté une nouvelle fiche hors forfait.
+INFO - 2023-12-04 08:50:06 --> L'utilisateur : dandre a modifié l'entrée 17
+INFO - 2023-12-04 08:50:09 --> L'utilisateur : dandre a supprimé l'entrée 21
+INFO - 2023-12-04 08:50:12 --> L'utilisateur : dandre s'est déconnecté.
+INFO - 2023-12-04 08:50:12 --> L'IP : ::1 vient d'accéder au site.
+ALERT - 2023-12-04 08:51:00 --> L'IP : ::1 n'a pas réussi à se connecter à la BDD.
+INFO - 2023-12-04 08:53:50 --> L'IP : ::1 vient d'accéder au site.
+INFO - 2023-12-04 08:53:54 --> L'IP : ::1 a tenté de se connecter avec de mauvaises informations.
+INFO - 2023-12-04 08:53:54 --> L'IP : ::1 vient d'accéder au site.
+INFO - 2023-12-04 08:54:10 --> L'utilisateur : dandre s'est connecté avec l'IP : ::1
+INFO - 2023-12-04 08:56:55 --> L'IP : ::1 vient d'accéder au site.
+INFO - 2023-12-04 08:56:55 --> L'IP : ::1 a tenté d'utiliser un token invalide.
+INFO - 2023-12-04 12:22:52 --> L'IP : ::1 vient d'accéder au site.
+INFO - 2023-12-04 12:24:00 --> L'IP : ::1 vient d'accéder au site.
+INFO - 2023-12-04 12:24:08 --> L'IP : ::1 a tenté de se connecter sans remplir les champs.
+INFO - 2023-12-04 12:24:08 --> L'IP : ::1 vient d'accéder au site.
+INFO - 2023-12-04 12:24:15 --> L'utilisateur : dandre s'est connecté avec l'IP : ::1
+INFO - 2023-12-04 13:24:21 --> L'utilisateur : dandre a ajouté une nouvelle fiche forfait.
+INFO - 2023-12-04 12:24:28 --> L'utilisateur : dandre a modifié l'entrée 1
+INFO - 2023-12-04 12:24:33 --> L'utilisateur : dandre a supprimé l'entrée 1

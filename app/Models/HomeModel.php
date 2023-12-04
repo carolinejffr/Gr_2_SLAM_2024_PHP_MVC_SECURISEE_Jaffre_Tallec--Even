@@ -23,10 +23,18 @@ class HomeModel extends Model
 
     public static function connexionBDD()
     {
-        $bdd = new PDO(HomeModel::$bddHost, HomeModel::$bddLogin, HomeModel::$bddPassword);
-        self::$bdd = $bdd;
+        try {
+            $bdd = new PDO(HomeModel::$bddHost, HomeModel::$bddLogin, HomeModel::$bddPassword);
+            self::$bdd = $bdd;
 
-        return $bdd;
+            return $bdd;
+        } catch (\Throwable $th) {
+            $ip = $_SERVER['REMOTE_ADDR'];
+			$str = "L'IP : " . $ip . " n'a pas réussi à se connecter à la BDD.";
+			log_message('alert', $str);
+            die('Erreur : ' . $th->getMessage());
+        }
+        
     }
 
     public static function verifLogin($login)
